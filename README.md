@@ -13,3 +13,6 @@ python -m pip install requests
 
 # Listar dependencias del entorno
 pip freeze > requirements.txt
+
+# Iniciar ejecución del paquete
+python -m package_cf
