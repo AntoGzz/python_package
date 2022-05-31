@@ -34,5 +34,15 @@ if __name__ == '__main__':
 
     logging.debug('>>> Finalizando ejecución')
 
+    logging.debug('>>> Iniciando ejecución de pokemonApi')
+    pokemon_stats = pokemonApi()
+    logging.debug(pokemon_stats)
+    logging.debug('>>> Finalizando ejecución')
+
+    logging.debug('>>> Iniciando ejecución de dogsList')
+    dogs_list = dogsList()
+    logging.debug(dogs_list)
+    logging.debug('>>> Finalizando ejecución')
+
     # Test
     # print('Taller de Python')
