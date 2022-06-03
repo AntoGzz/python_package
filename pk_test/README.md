@@ -24,6 +24,8 @@
 
 ###### 8. Desplegar el paquete, nos pedira el username y el password. Luego podemos probarlo usando la ruta que nos da
 `twine upload dist/*`
+###### 8.1 En caso de que falle el comando superior, ejecutar
+`python -m twine upload dist/*`
 
 ###### 9. Testear el paquete desplegado
 `pip install package_name`

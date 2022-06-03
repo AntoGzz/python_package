@@ -5,8 +5,8 @@ from setuptools import setup
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.0.1'
-DESCRIPTION = 'Extrae un listado de razas de perros de la Api Pública de Dogs'
+VERSION = '0.0.3'
+DESCRIPTION = 'Extrae un listado de razas de perros de la Api Publica de Dogs'
 PACKAGE_NAME = 'pk_dogsApi'
 AUTHOR = 'AntoGzz'
 EMAIL = 'quirozd70@gmail.com'
@@ -18,7 +18,7 @@ setup(
     entry_points={
         'console_scripts': [
             # Cuando alguien instale el paquete y ejecute el comando py_pk_cf, se ejecutara el resto de la linea , es decir, el comando
-            'pydogs=ppk_dogsApi.__main__:main',
+            'pydogs=pk_dogsApi.__main__:main',
         ],
     },
     version = VERSION,
