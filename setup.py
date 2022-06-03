@@ -1,4 +1,5 @@
 from pathlib import Path
+from importlib_metadata import entry_points
 from setuptools import setup
 
 this_directory = Path(__file__).parent
@@ -14,6 +15,11 @@ GITHUB_URL = ''
 setup(
     name = PACKAGE_NAME,
     packages = [PACKAGE_NAME],
+    entry_points = [
+        "console_scripts":
+            # Cuando alguien instale el paquete y ejecute el comando py_pk_cf, se ejecutara el resto de la linea , es decir, el comando
+            ["py_pk_cf=package_cf.__main__:main"]
+    ],
     version = VERSION,
     license='MIT',
     description = DESCRIPTION,

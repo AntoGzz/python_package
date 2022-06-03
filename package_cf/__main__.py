@@ -19,6 +19,13 @@ from package_cf import unreleased, workshops
 from package_cf import pokemonApi
 from package_cf import dogsList
 
+# Definimos main despues de los entry_points
+def main():
+    workshops = unreleased()
+    logging.info(workshops)
+    # Tambien podriamos colocarlo como 
+    # logging.info(unreleased())
+
 if __name__ == '__main__':
 # Manera tipica de definir un msg
 # print('>>> Iniciando ejecución de unreleased')
@@ -29,8 +36,8 @@ if __name__ == '__main__':
     # Añadiendo esto podemos imprimir el doc string para testearlo
     logging.debug(help(unreleased.__doc__))
 
-    workshops = unreleased()
-    logging.debug(workshops)
+    # Despues de los entry_points
+    main()
 
     logging.debug('>>> Finalizando ejecución')
 

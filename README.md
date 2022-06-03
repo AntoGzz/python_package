@@ -37,3 +37,12 @@ dogsList()
 
 ![image](https://user-images.githubusercontent.com/23372415/171760844-754c23b8-484f-460b-95b6-fa62b1eb349b.png)
 
+###### 11. Creara el CLI para en vez de utilizar el interprete, utilicemos un comando y ya
+###### 11. Definimos los entry_points para definir los comandos de ejecución, reconstruimos el dist con el paso 6 y luego resubir con el paso 8
+###### 11.1 Upgradeamos el paquete en su nueva version
+`pip install package_name --upgrade`
+
+###### 12. Ahora ya podemos ejecutar el comando que definimos y nos mostrara nuestra ejecución
+
+###### 13. Actualizamos el requirements.txt
+`pip freeze > requirements.txt`
