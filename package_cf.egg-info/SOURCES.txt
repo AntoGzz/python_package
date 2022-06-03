@@ -1,0 +1,11 @@
+README.md
+setup.py
+package_cf/__init__.py
+package_cf/__main__ copy.py
+package_cf/__main__.py
+package_cf/workshops.py
+package_cf.egg-info/PKG-INFO
+package_cf.egg-info/SOURCES.txt
+package_cf.egg-info/dependency_links.txt
+package_cf.egg-info/requires.txt
+package_cf.egg-info/top_level.txt

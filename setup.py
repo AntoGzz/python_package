@@ -6,14 +6,14 @@ long_description = (this_directory / "README.md").read_text()
 
 VERSION = '0.0.1'
 DESCRIPTION = 'Description'
-PACKAGE_NAME = 'Package Name'
+PACKAGE_NAME = 'package_cf'
 AUTHOR = ''
 EMAIL = ''
 GITHUB_URL = ''
 
 setup(
     name = PACKAGE_NAME,
-    packages = [DESCRIPTION],
+    packages = [PACKAGE_NAME],
     version = VERSION,
     license='MIT',
     description = DESCRIPTION,

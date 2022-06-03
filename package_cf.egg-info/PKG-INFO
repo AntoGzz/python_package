@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: package-cf
+Version: 0.0.1
+Summary: Description
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: MIT
+Description: # README.md
+            Paquete para el API de la plataforma.
+        
+        # 1. Iniciar entorno virtual
+        py -m venv env Ã³ python -m venv env
+        
+        # 2. Activar el entorno virtual 
+        source env/Scripts/activate
+        
+        # 3. Instalar la libreria Request en el entorno virtual
+        python -m pip install requests
+        
+        # 4. Listar dependencias del entorno y actualizar el requirements.txt
+        pip freeze > requirements.txt
+        
+        # 5. Iniciar ejecuciÃ³n del paquete
+        python -m package_cf
+        
+        # 6. Ejecutar el setup
+        python setup.py sdist
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
